@@ -1,0 +1,83 @@
+MIT License
+
+Copyright (c) 2022 yaobinbin333
+Copyright (c) 2026 Bob Multi Dictionary contributors
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+--------------------------------------------------------------------------
+
+DERIVED WORK NOTICE / 衍生开发声明
+
+Bob Multi Dictionary is an independently maintained derivative work of an
+earlier MIT-licensed Bob dictionary plugin. The upstream copyright notice is
+retained above as required by the MIT License. This project is not an official
+continuation of that upstream project and is not maintained or endorsed by
+the upstream author.
+
+--------------------------------------------------------------------------
+
+THIRD-PARTY DATA AND BRAND MATERIAL / 第三方数据与品牌素材
+
+The MIT license above applies ONLY to this project's own source code.
+The following are explicitly outside the scope of this MIT grant:
+
+  * Cambridge Dictionary (Cambridge University Press & Assessment) dictionary
+    text, definitions, translations, example sentences, IPA transcriptions
+    as published data, web pages, HTML, audio recordings and audio URLs;
+  * the Cambridge name, Cambridge Dictionary logo, crest, shield, wordmark,
+    favicon and any other trademark or branded visual asset;
+  * any other third-party dictionary content or trademark.
+
+本项目 MIT 许可仅适用于项目自身代码。Cambridge 词典文本、释义、译义、例句、
+网页内容、音频与音频地址，以及 Cambridge 名称、徽标、盾徽、商标和其它品牌
+素材，均不在本项目 MIT 授权范围内。
+
+This project is not a Cambridge official product, does not use a Cambridge
+official API, and has no licence, partnership, endorsement or authorisation
+from Cambridge. The plugin fetches and parses public web pages at runtime on
+a user-initiated single-word query; it does not bundle, redistribute or
+persist Cambridge dictionary content or audio. No permission has been
+obtained and no claim is made that web parsing complies with Cambridge's
+terms. A non-commercial purpose, a low request rate, or a disclaimer does
+not constitute authorisation. Users must review Cambridge's terms and assess
+compliance in their own jurisdiction.
+
+--------------------------------------------------------------------------
+
+BUNDLED THIRD-PARTY CODE / 随源码分发的第三方代码
+
+vendor/cheerio.slim.js is a prebuilt browser bundle of cheerio and its
+transitive dependencies, produced with esbuild. All listed components are
+distributed under the MIT License (the same permission text reproduced at
+the top of this file); copyright belongs to their respective authors.
+
+  * cheerio            https://github.com/cheeriojs/cheerio
+  * htmlparser2        https://github.com/fb55/htmlparser2
+  * domhandler         https://github.com/fb55/domhandler
+  * domutils           https://github.com/fb55/domutils
+  * dom-serializer     https://github.com/cheeriojs/dom-serializer
+  * css-select         https://github.com/fb55/css-select
+  * css-what           https://github.com/fb55/css-what
+  * boolbase           https://github.com/fb55/boolbase
+  * entities           https://github.com/fb55/entities
+
+The MIT copyright notice and permission notice reproduced at the top of this
+file are retained for each of these components; the full upstream licence
+texts are available at the URLs above.

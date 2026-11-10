@@ -1,0 +1,12 @@
+{
+  "identifier": "com.multidictionary.bob",
+  "versions": [
+    {
+      "version": "1.0.0",
+      "desc": "详见 CHANGELOG.md",
+      "sha256": "e6d56ea749f4d5bc0b4d1f12de5f38ca7dbbdd2e9713debfe4737ecd1888e6e9",
+      "url": "https://github.com/oooocccc/bob-plugin-multi-dictionary/releases/download/v1.0.0/bob-plugin-multi-dictionary1.0.0.bobplugin",
+      "minBobVersion": "1.8.0"
+    }
+  ]
+}

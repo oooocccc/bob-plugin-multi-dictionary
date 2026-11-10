@@ -1,0 +1,30 @@
+{
+  "identifier": "com.multidictionary.bob",
+  "version": "1.0.0",
+  "category": "translate",
+  "name": "多源英语词典",
+  "summary": "Bob macOS 英语查词插件，基于 Cambridge Dictionary 显示词性、中文释义、英美 IPA 与原生发音。",
+  "author": "Bob Multi Dictionary contributors",
+  "homepage": "https://github.com/oooocccc/bob-plugin-multi-dictionary",
+  "minBobVersion": "1.8.0",
+  "appcast": "https://raw.githubusercontent.com/oooocccc/bob-plugin-multi-dictionary/main/appcast.json",
+  "options": [
+    {
+      "identifier": "ipaBoundary",
+      "type": "menu",
+      "title": "音标显示边界",
+      "desc": "Bob 会自动为音标加方括号，默认输出裸 IPA，显示如「英 [meɪn]」。切换为斜线模式时输出 /meɪn/。",
+      "defaultValue": "bare",
+      "menuValues": [
+        {
+          "title": "裸 IPA（推荐，Bob 原生括号）",
+          "value": "bare"
+        },
+        {
+          "title": "标准音位 /…/",
+          "value": "slash"
+        }
+      ]
+    }
+  ]
+}

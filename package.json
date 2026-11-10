@@ -1,0 +1,22 @@
+{
+  "name": "bob-plugin-multi-dictionary",
+  "version": "1.0.0",
+  "description": "Bob macOS 英语查词插件，基于 Cambridge Dictionary 显示词性、中文释义、英美 IPA 与原生发音。",
+  "keywords": ["bob", "bobplugin", "dictionary", "ipa", "javascriptcore", "english"],
+  "author": "Bob Multi Dictionary contributors",
+  "license": "MIT",
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/oooocccc/bob-plugin-multi-dictionary.git"
+  },
+  "scripts": {
+    "build": "node build.js",
+    "check": "node build.js --check",
+    "release": "node build.js --appcast"
+  },
+  "devDependencies": {
+    "cheerio": "1.0.0-rc.12",
+    "esbuild": "^0.14.48"
+  }
+}
